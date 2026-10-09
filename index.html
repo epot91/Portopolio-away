@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0a0b10">
+  <title>Portfolio | Graphic Design & Screen Printing</title>
+  <meta name="description" content="Portfolio desain grafis, vector, apparel, dan screen printing.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Kembali ke beranda"><span class="brand-mark">P<span>.</span></span><span class="brand-name">PORTO<span>FOLIO</span></span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Buka menu" aria-expanded="false">☰</button>
+    <nav id="navMenu">
+      <a href="#home" class="nav-link active">Beranda</a><a href="#about" class="nav-link">Tentang</a>
+      <a href="#works" class="nav-link">Karya</a><a href="#services" class="nav-link">Keahlian</a>
+      <a class="nav-cta" href="#contact">Hubungi Saya <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="pulse"></span> GRAPHIC DESIGNER · SCREEN PRINTER</div>
+        <h1>Mengubah ide<br>jadi <span class="gradient-text">karya nyata.</span></h1>
+        <p class="hero-desc">Saya Asep Ramdani (Chepotz) — mulai dari desain grafis, vector, identitas brand, sampai produksi screen printing dan apparel.</p>
+        <div class="hero-actions"><a class="btn btn-primary" href="#works">Lihat Karya <span>↘</span></a><a class="btn btn-ghost" href="#contact">Diskusi Proyek <span>↗</span></a></div>
+        <div class="hero-meta"><div><strong>DESIGN</strong><span>Detail & karakter</span></div><i></i><div><strong>PRINT</strong><span>Siap produksi</span></div><i></i><div><strong>CREATE</strong><span>Dari ide ke hasil</span></div></div>
+      </div>
+      <div class="hero-art" aria-label="Ilustrasi abstrak tiga dimensi">
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+        <div class="cube-scene"><div class="cube"><div class="cube-face face-front">DESIGN<br><small>MAKE IT BOLD</small></div><div class="cube-face face-back"></div><div class="cube-face face-right"></div><div class="cube-face face-left"></div><div class="cube-face face-top"></div><div class="cube-face face-bottom"></div></div></div>
+        <div class="floating-card card-top"><span class="mini-icon">✳</span><div><b>CREATIVE</b><small>Visual direction</small></div></div>
+        <div class="floating-card card-bottom"><span class="mini-icon">◈</span><div><b>PRINT READY</b><small>Artwork to <T-shirt></T-shirt></small></div></div>
+        <div class="art-caption">SELECTED WORKS <span>— 2026</span></div>
+      </div>
+      <a class="scroll-cue" href="#about"><span></span> SCROLL TO EXPLORE</a>
+    </section>
+
+    <section class="section-wrap about section-pad" id="about">
+      <div class="section-kicker">01 / TENTANG SAYA</div>
+      <div class="about-grid"><h2>Visual kuat.<br><span class="muted">Eksekusi rapi.</span></h2><div class="about-copy"><p>Saya berfokus pada desain grafis dan screen printing. Saya menikmati proses mengolah referensi menjadi visual yang tajam, menarik, dan siap digunakan untuk kebutuhan brand maupun apparel.</p><p>Portfolio ini menjadi tempat untuk menampilkan proses, detail, dan hasil karya terbaik saya.</p><a class="text-link" href="#contact">Punya proyek? Mari ngobrol <span>↗</span></a></div></div>
+      <div class="stats-row"><div><strong>01</strong><span>DESIGN WITH PURPOSE</span></div><div><strong>02</strong><span>DETAIL-ORIENTED</span></div><div><strong>03</strong><span>PRINT CONSCIOUS</span></div></div>
+    </section>
+
+    <section class="section-wrap works section-pad" id="works">
+      <div class="section-kicker">02 / PILIHAN KARYA</div>
+      <div class="section-heading"><div><h2>Beberapa karya<br><span class="muted">pilihan saya.</span></h2><p>Ganti gambar contoh dengan hasil karya milikmu sendiri.</p></div><div class="filter-list" role="group" aria-label="Filter karya"><button class="filter-btn active" data-filter="all">Semua</button><button class="filter-btn" data-filter="graphic">Desain Grafis</button><button class="filter-btn" data-filter="vector">Vector</button><button class="filter-btn" data-filter="print">Screen Printing</button></div></div>
+      <div class="work-grid" id="workGrid">
+        <article class="work-card large" data-category="graphic"><button class="work-image placeholder artwork-one" data-image="assets/karya/karya-01.jpg" aria-label="Lihat karya 1"><span class="placeholder-number">01</span><span class="placeholder-title">GRAPHIC<br>ARTWORK</span><span class="placeholder-hint">GANTI DENGAN FOTO KARYA</span></button><div class="work-info"><div><h3>Graphic Artwork</h3><p>Desain grafis · Poster / Apparel</p></div><span class="work-arrow">↗</span></div></article>
+        <article class="work-card" data-category="vector"><button class="work-image placeholder artwork-two" data-image="assets/karya/karya-02.jpg" aria-label="Lihat karya 2"><span class="placeholder-number">02</span><span class="placeholder-title">VECTOR<br>DETAIL</span><span class="placeholder-hint">GANTI DENGAN FOTO KARYA</span></button><div class="work-info"><div><h3>Vector Illustration</h3><p>Vector · Ilustrasi detail</p></div><span class="work-arrow">↗</span></div></article>
+        <article class="work-card" data-category="print"><button class="work-image placeholder artwork-three" data-image="assets/karya/karya-03.jpg" aria-label="Lihat karya 3"><span class="placeholder-number">03</span><span class="placeholder-title">SCREEN<br>PRINTING</span><span class="placeholder-hint">GANTI DENGAN FOTO KARYA</span></button><div class="work-info"><div><h3>Screen Printing</h3><p>Produksi sablon · Apparel</p></div><span class="work-arrow">↗</span></div></article>
+        <article class="work-card wide" data-category="graphic"><button class="work-image placeholder artwork-four" data-image="assets/karya/karya-04.jpg" aria-label="Lihat karya 4"><span class="placeholder-number">04</span><span class="placeholder-title">BRAND<br>IDENTITY</span><span class="placeholder-hint">GANTI DENGAN FOTO KARYA</span></button><div class="work-info"><div><h3>Brand & Logo</h3><p>Identitas visual · Logo</p></div><span class="work-arrow">↗</span></div></article>
+        <article class="work-card" data-category="print"><button class="work-image placeholder artwork-five" data-image="assets/karya/karya-05.jpg" aria-label="Lihat karya 5"><span class="placeholder-number">05</span><span class="placeholder-title">APPAREL<br>PROJECT</span><span class="placeholder-hint">GANTI DENGAN FOTO KARYA</span></button><div class="work-info"><div><h3>Apparel Project</h3><p>Kaos · Merchandise</p></div><span class="work-arrow">↗</span></div></article>
+        <article class="work-card" data-category="vector"><button class="work-image placeholder artwork-six" data-image="assets/karya/karya-06.jpg" aria-label="Lihat karya 6"><span class="placeholder-number">06</span><span class="placeholder-title">CUSTOM<br>ILLUSTRATION</span><span class="placeholder-hint">GANTI DENGAN FOTO KARYA</span></button><div class="work-info"><div><h3>Custom Illustration</h3><p>Vector · Artwork custom</p></div><span class="work-arrow">↗</span></div></article>
+      </div>
+      <p class="works-note"><span>✳</span> Tip: letakkan foto di folder <code>assets/karya/</code>, lalu ikuti petunjuk di file README.</p>
+    </section>
+
+    <section class="section-wrap services section-pad" id="services">
+      <div class="section-kicker">03 / KEAHLIAN</div><div class="section-heading"><div><h2>Yang bisa<br><span class="muted">saya kerjakan.</span></h2></div><p class="services-intro">Dari file digital sampai karya yang siap tampil di produk fisik.</p></div>
+      <div class="service-grid"><article class="service-card"><span class="service-num">01</span><div class="service-icon">✳</div><h3>Desain Grafis</h3><p>Poster, logo, branding, layout, dan desain promosi dengan visual yang konsisten.</p><span class="service-line"></span></article><article class="service-card"><span class="service-num">02</span><div class="service-icon">⌘</div><h3>Vector Artwork</h3><p>Tracing, ilustrasi, dan artwork detail yang bersih serta fleksibel untuk produksi.</p><span class="service-line"></span></article><article class="service-card"><span class="service-num">03</span><div class="service-icon">▧</div><h3>Screen Printing</h3><p>Persiapan desain sablon dan visual apparel dengan memperhatikan warna serta detail cetak.</p><span class="service-line"></span></article></div>
+    </section>
+
+    <section class="contact-section" id="contact"><div class="contact-inner section-wrap"><div class="section-kicker">04 / MULAI PROYEK</div><h2>Punya ide?<br><span class="gradient-text">Kita Bantu wujudkan.</span></h2><p>Hubungi saya untuk ngobrol tentang desain, apparel, atau kebutuhan screen printing.</p><a class="btn btn-primary contact-btn" id="emai: cepotzfals@gmail.com" href="mailto:cepozfals@gmail.com?subject=Diskusi%20Proyek%20Desain">Hubungi Saya +6287715840580<span>↗</span></a><div class="contact-orb"></div></div></section>
+  </main>
+  <footer class="site-footer"><a class="brand" href="#home"><span class="brand-mark">P<span>.</span></span><span class="brand-name">AWAY<span>SABLON</span></span></a><p>Designed with intent. Made to stand out.</p><span>© <span id="year"></span> Portfolio Design</span></footer>
+  <div class="lightbox" id="lightbox" aria-hidden="true"><button class="lightbox-close" id="lightboxClose" aria-label="Tutup">×</button><img id="lightboxImage" alt="Pratinjau karya"><p id="lightboxCaption"></p></div>
+  <script src="js/script.js"></script>
+</body>
+</html>
